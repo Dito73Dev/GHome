@@ -1,0 +1,326 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel local_menu search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN Idmenu_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Idmenu}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Idmenu{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="Idmenu" data-fieldname="Idmenu" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Idmenu}">
+		{$label local_menu Idmenu }	</label>
+	<div class="r-search-option">
+		{$searchtype_Idmenu}
+	</div>
+	<div class="r-search-field">
+		{$Idmenu_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Idmenu_editcontrol1}
+	</div>
+	
+</div>
+
+{END Idmenu_fieldblock}
+											
+{BEGIN menu_name_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_menu_name}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="menu_name{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="menu_name" data-fieldname="menu_name" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_menu_name}">
+		{$label local_menu menu_name }	</label>
+	<div class="r-search-option">
+		{$searchtype_menu_name}
+	</div>
+	<div class="r-search-field">
+		{$menu_name_editcontrol}	</div>
+	<div class="r-search-field">
+		{$menu_name_editcontrol1}
+	</div>
+	
+</div>
+
+{END menu_name_fieldblock}
+											
+{BEGIN menu_status_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_menu_status}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="menu_status{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="menu_status" data-fieldname="menu_status" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_menu_status}">
+		{$label local_menu menu_status }	</label>
+	<div class="r-search-option">
+		{$searchtype_menu_status}
+	</div>
+	<div class="r-search-field">
+		{$menu_status_editcontrol}	</div>
+	<div class="r-search-field">
+		{$menu_status_editcontrol1}
+	</div>
+	
+</div>
+
+{END menu_status_fieldblock}
+											
+{BEGIN menu_link_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_menu_link}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="menu_link{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="menu_link" data-fieldname="menu_link" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_menu_link}">
+		{$label local_menu menu_link }	</label>
+	<div class="r-search-option">
+		{$searchtype_menu_link}
+	</div>
+	<div class="r-search-field">
+		{$menu_link_editcontrol}	</div>
+	<div class="r-search-field">
+		{$menu_link_editcontrol1}
+	</div>
+	
+</div>
+
+{END menu_link_fieldblock}
+											
+{BEGIN menu_ubica_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_menu_ubica}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="menu_ubica{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="menu_ubica" data-fieldname="menu_ubica" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_menu_ubica}">
+		{$label local_menu menu_ubica }	</label>
+	<div class="r-search-option">
+		{$searchtype_menu_ubica}
+	</div>
+	<div class="r-search-field">
+		{$menu_ubica_editcontrol}	</div>
+	<div class="r-search-field">
+		{$menu_ubica_editcontrol1}
+	</div>
+	
+</div>
+
+{END menu_ubica_fieldblock}
+											
+{BEGIN menu_rol_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_menu_rol}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="menu_rol{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="menu_rol" data-fieldname="menu_rol" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_menu_rol}">
+		{$label local_menu menu_rol }	</label>
+	<div class="r-search-option">
+		{$searchtype_menu_rol}
+	</div>
+	<div class="r-search-field">
+		{$menu_rol_editcontrol}	</div>
+	<div class="r-search-field">
+		{$menu_rol_editcontrol1}
+	</div>
+	
+</div>
+
+{END menu_rol_fieldblock}
+											
+{BEGIN menu_img_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_menu_img}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="menu_img{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="menu_img" data-fieldname="menu_img" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_menu_img}">
+		{$label local_menu menu_img }	</label>
+	<div class="r-search-option">
+		{$searchtype_menu_img}
+	</div>
+	<div class="r-search-field">
+		{$menu_img_editcontrol}	</div>
+	<div class="r-search-field">
+		{$menu_img_editcontrol1}
+	</div>
+	
+</div>
+
+{END menu_img_fieldblock}
+											
+{BEGIN menu_desc_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_menu_desc}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="menu_desc{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="menu_desc" data-fieldname="menu_desc" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_menu_desc}">
+		{$label local_menu menu_desc }	</label>
+	<div class="r-search-option">
+		{$searchtype_menu_desc}
+	</div>
+	<div class="r-search-field">
+		{$menu_desc_editcontrol}	</div>
+	<div class="r-search-field">
+		{$menu_desc_editcontrol1}
+	</div>
+	
+</div>
+
+{END menu_desc_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} data-page=undefined >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Reiniciar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancelar			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

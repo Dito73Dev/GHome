@@ -1,0 +1,18 @@
+[data-page="local_menu_list"][data-itemid="simple_grid_field1"] {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Roboto";
+}
+[data-page="local_menu_list"][data-itemid="simple_grid_field3"] {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Roboto";
+  white-space: normal;
+}
+[data-page="local_menu_list"][data-itemid="page_image_ash8f23hr"] {
+  width: 400px;
+}
+
+
